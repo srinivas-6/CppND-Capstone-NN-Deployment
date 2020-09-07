@@ -38,8 +38,8 @@ int main(int argc, char **argv)
 
     //Path to YOLO weights and architecture and postprocessing parameters from Cmdline parser
 
-    string modelConfiguration = "/home/workspace/CppND-Capstone-Hello-World/yolo_model/yolov3.cfg";
-    string modelWeights = "/home/workspace/CppND-Capstone-Hello-World/yolo_model/yolov3.weights";
+    string modelConfiguration = "/home/workspace/CppND-Capstone-NN-Deployment/yolo_model/yolov3.cfg";
+    string modelWeights = "/home/workspace/CppND-Capstone-NN-Deployment/yolo_model/yolov3.weights";
 
     if(parser.has("conf"))
       confThreshold = parser.get<float>("c");
