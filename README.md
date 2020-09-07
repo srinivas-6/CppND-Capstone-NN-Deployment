@@ -86,3 +86,9 @@ __Memory Management__
 | :heavy_check_mark: | The project follows the Rule of 5. | For all classes, if any one of the copy constructor, copy assignment operator, move constructor, move assignment operator, and destructor are defined, then all of these functions are defined.| Followed in utils.h |
 | :heavy_check_mark: | The project uses move semantics to move data, instead of copying it, where possible. | For classes with move constructors, the project returns objects of that class by value, and relies on the move constructor, instead of copying the object. | Done in utils.cpp |
 | :heavy_check_mark: | The project uses smart pointers instead of raw pointers. | The project uses at least one smart pointer: unique_ptr, shared_ptr, or weak_ptr. The project does not use raw pointers.| used in main function |
+
+## References
+
+1. https://pjreddie.com/darknet/yolo/
+2. https://www.learnopencv.com/deep-learning-based-object-detection-using-yolov3-with-opencv-python-c/
+3. https://stackoverflow.com/questions/13970377/configuring-an-c-opencv-project-with-cmake
