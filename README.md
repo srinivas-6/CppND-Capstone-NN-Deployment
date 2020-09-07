@@ -27,3 +27,4 @@ This is the capstone project for the Udacity C++ Nanodegree Program. YOLO Object
 6. Compile: `cmake .. && make`
 7. Run it: `./yolo --image=../images/test_image.jpg`
 8. If you want to change model parameters Run `./yolo --image=../images/test_image.jpg --conf=0.6 --nms=0.5`
+9. You can also give video as input `./yolo --video=path to video file`
