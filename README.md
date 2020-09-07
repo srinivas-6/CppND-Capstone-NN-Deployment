@@ -3,6 +3,8 @@
 ## YOLOv3 Deployment with OpenCV using C++
 This is the capstone project for the Udacity C++ Nanodegree Program. YOLO Object detection model using OpenCV is implemented. The program reads an image file given by the user and then performs object detection on it.The output image is displayed with bounding boxes over the detected objects and is also saved into the images folder. This program is  built using the concepts learnt in the nanodegree program. It can also be used for various Deep Neural Network Models.The compiled file is executed through the command line and takes in various options (image / video) as input parameters.
 
+<img src="images/test_image_yolo_out_cpp.jpg"/>
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
@@ -16,7 +18,7 @@ This is the capstone project for the Udacity C++ Nanodegree Program. YOLO Object
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
-
+ 
 ## Basic Build Instructions
 
 1. Clone this repo.
@@ -28,6 +30,12 @@ This is the capstone project for the Udacity C++ Nanodegree Program. YOLO Object
 7. Run it: `./yolo --image=../images/test_image.jpg`
 8. If you want to change model parameters Run `./yolo --image=../images/test_image.jpg --conf=0.6 --nms=0.5`
 9. You can also give video as input `./yolo --video=path to video file`
+
+## Example of a Realtime Image from webcam stream
+
+ `./yolo --image=../images/image_stream_0001.jpg --conf=0.6 --nms=0.5`
+
+<img src="images/356_yolo_out_cpp.jpg"/>
 
 
 ## Rubric
