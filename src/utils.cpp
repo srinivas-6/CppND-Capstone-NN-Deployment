@@ -121,9 +121,6 @@ YOLO::YOLO(const YOLO &other):Util(other.confThreshold, other.nmsThreshold)
 {
     modelConfig = other.modelConfig;
     modelWeights = other.modelWeights;
-    // confThreshold = other.conf;
-    // nmsThreshold = other.nms;
-    // Util(confThreshold,nmsThreshold);
 }
 
 YOLO::YOLO(const YOLO &&other):Util(std::move(other.confThreshold), std::move(other.nmsThreshold))
