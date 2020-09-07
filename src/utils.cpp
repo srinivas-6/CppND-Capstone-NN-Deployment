@@ -172,7 +172,7 @@ Mat YOLO::Detect(Mat &frame)
 
 void YOLO::FPS(Mat &frame)
 {
-        // Put efficiency information. The function getPerfProfile returns the overall time for inference(t) and the timings for each of the layers(in layersTimes)
+        // Get inference time
     vector<double> layersTimes;
     double freq = getTickFrequency();
     double t = net.getPerfProfile(layersTimes) / freq;
